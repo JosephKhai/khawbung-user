@@ -4,7 +4,7 @@ import React, { Component, Fragment } from 'react'
   render() {
     return (
         <Fragment>
-            <h1>This is our Home Page</h1>
+            <h1>Welcome to Khawngbung K & K </h1>
             
       </Fragment>
     )
