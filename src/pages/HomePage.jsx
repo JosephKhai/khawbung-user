@@ -5,6 +5,8 @@ import React, { Component, Fragment } from 'react'
     return (
         <Fragment>
             <h1>Welcome to Khawngbung K & K </h1>
+            <p>This page is under construction</p>
+
             
       </Fragment>
     )
