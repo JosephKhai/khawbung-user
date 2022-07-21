@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { Container, Row, Col, Card, Button } from 'react-bootstrap'
+import { Container, Row, Col, Card } from 'react-bootstrap'
 
 export class FeatureProduct extends Component {
     render() {
@@ -16,7 +16,7 @@ export class FeatureProduct extends Component {
                     <Row>
                         <Col className='p-1' key={1} xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Card className='image-box card'>
-                                <img className='center' src="https://white-story.com/images/stories/virtuemart/product/3-1.jpg" />
+                                <img className='center' src="http://white-story.com/images/stories/virtuemart/product/resized/theresa-30.1_400x500.jpg" />
                                 <Card.Body>
                                     <p className='product-name-on-card'> Gown and Wedding</p>
                                     <p className='product-price-on-card'>Price: $300.00</p>
@@ -28,7 +28,7 @@ export class FeatureProduct extends Component {
                         </Col>
                         <Col className='p-1' key={1} xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Card className='image-box card'>
-                                <img className='center' src="https://white-story.com/images/stories/virtuemart/product/4-1.jpg" />
+                                <img className='center' src="http://white-story.com/images/stories/virtuemart/product/resized/theia-28.1_400x500.jpg" />
                                 <Card.Body>
                                     <p className='product-name-on-card'> Gown and Wedding</p>
                                     <p className='product-price-on-card'>Price: $300.00</p>
@@ -40,7 +40,7 @@ export class FeatureProduct extends Component {
                         </Col>
                         <Col className='p-1' key={1} xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Card className='image-box card'>
-                                <img className='center' src="https://white-story.com/images/stories/virtuemart/product/3-1.jpg" />
+                                <img className='center' src="https://white-story.com/images/stories/virtuemart/product/alexandra-2.1.jpg" />
                                 <Card.Body>
                                     <p className='product-name-on-card'> Gown and Wedding</p>
                                     <p className='product-price-on-card'>Price: $300.00</p>
@@ -52,7 +52,7 @@ export class FeatureProduct extends Component {
                         </Col>
                         <Col className='p-1' key={1} xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Card className='image-box card'>
-                                <img className='center' src="https://white-story.com/images/stories/virtuemart/product/4-1.jpg" />
+                                <img className='center' src="http://white-story.com/images/stories/virtuemart/product/resized/daphne-5.1_400x500.jpg" />
                                 <Card.Body>
                                     <p className='product-name-on-card'> Gown and Wedding</p>
                                     <p className='product-price-on-card'>Price: $300.00</p>
@@ -64,7 +64,7 @@ export class FeatureProduct extends Component {
                         </Col>
                         <Col className='p-1' key={1} xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Card className='image-box card'>
-                                <img className='center' src="https://white-story.com/images/stories/virtuemart/product/3-1.jpg" />
+                                <img className='center' src="http://white-story.com/images/stories/virtuemart/product/resized/irene-13.1_400x500.jpg" />
                                 <Card.Body>
                                     <p className='product-name-on-card'> Gown and Wedding</p>
                                     <p className='product-price-on-card'>Price: $300.00</p>
@@ -76,7 +76,7 @@ export class FeatureProduct extends Component {
                         </Col>
                         <Col className='p-1' key={1} xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Card className='image-box card'>
-                                <img className='center' src="https://white-story.com/images/stories/virtuemart/product/4-1.jpg" />
+                                <img className='center' src="http://white-story.com/images/stories/virtuemart/product/resized/eris-8.1_400x500.jpg" />
                                 <Card.Body>
                                     <p className='product-name-on-card'> Gown and Wedding</p>
                                     <p className='product-price-on-card'>Price: $300.00</p>
