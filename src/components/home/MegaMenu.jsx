@@ -11,6 +11,8 @@ class MegaMenu extends Component {
         this.MegaMenu();
     }
 
+
+
     MegaMenu() {
         var acc = document.getElementsByClassName("accordion");
         var accNum = acc.length;
@@ -31,123 +33,199 @@ class MegaMenu extends Component {
 
     render() {
         return (
-            <div className='accordionMenuDiv'>
-                <div className='accordionMenuDivInside'>
+            <div className="accordionMenuDiv">
+                <div className="accordionMenuDivInside">
+
 
                     <button className="accordion">
-                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panel">
                         <ul>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
                         </ul>
                     </div>
 
 
 
                     <button className="accordion">
-                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panel">
                         <ul>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+                    <button className="accordion">
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panel">
+                        <ul>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
                         </ul>
                     </div>
 
 
 
                     <button className="accordion">
-                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panel">
                         <ul>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
                         </ul>
                     </div>
 
 
 
                     <button className="accordion">
-                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panel">
                         <ul>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
                         </ul>
                     </div>
 
 
 
                     <button className="accordion">
-                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panel">
                         <ul>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+                    <button className="accordion">
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panel">
+                        <ul>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
                         </ul>
                     </div>
 
 
 
                     <button className="accordion">
-                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panel">
                         <ul>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+                    <button className="accordion">
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panel">
+                        <ul>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
                         </ul>
                     </div>
 
 
 
                     <button className="accordion">
-                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panel">
                         <ul>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 2</a></li>
-                        </ul>
-                    </div>
-
-                    <button className="accordion">
-                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
-                    </button>
-                    <div className="panel">
-                        <ul>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
                         </ul>
                     </div>
 
 
 
                     <button className="accordion">
-                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panel">
                         <ul>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
                         </ul>
                     </div>
+
 
 
                     <button className="accordion">
-                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panel">
                         <ul>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItem" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
                         </ul>
                     </div>
+
+
+
+                    <button className="accordion">
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panel">
+                        <ul>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <button className="accordion">
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panel">
+                        <ul>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <button className="accordion">
+                        <img className="accordionMenuIcon" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panel">
+                        <ul>
+                            <li><a href="#" className="accordionItem" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItem" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
                 </div>

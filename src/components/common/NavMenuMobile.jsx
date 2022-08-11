@@ -1,11 +1,10 @@
 import React, { Component, Fragment } from 'react'
 import { Navbar, Container, Row, Col, Button } from 'react-bootstrap';
-import Logo from '../../assets/images/easyshop.png'
-//import Logo from '../../assets/images/easylogon.jpeg'
-import { Link } from 'react-router-dom'
+import Logo from '../../assets/images/easyshop.png';
+import { Link } from "react-router-dom";
 import MegaMenuMobile from '../home/MegaMenuMobile';
 
-export class NavMenuMobile extends Component {
+class NavMenuMobile extends Component {
 
   constructor() {
     super();
@@ -15,30 +14,26 @@ export class NavMenuMobile extends Component {
     }
   }
 
+
   MenuBarClickHandler = () => {
-    this.SidNavOpenClose();
+    this.SideNavOpenClose();
   }
 
   ContentOverlayClickHandler = () => {
-    this.SidNavOpenClose();
+    this.SideNavOpenClose();
   }
 
 
-  SidNavOpenClose = () => {
+  SideNavOpenClose = () => {
     let SideNavState = this.state.SideNavState;
     let ContentOverState = this.state.ContentOverState;
     if (SideNavState === "sideNavOpen") {
-      this.setState({
-        SideNavState: "sideNavClose",
-        ContentOverState: "ContentOverlayClose"
-      })
-    } else {
-      this.setState({
-        SideNavState: "sideNavOpen",
-        ContentOverState: "ContentOverlayOpen"
-      })
-    }
+      this.setState({ SideNavState: "sideNavClose", ContentOverState: "ContentOverlayClose" })
 
+    }
+    else {
+      this.setState({ SideNavState: "sideNavOpen", ContentOverState: "ContentOverlayOpen" })
+    }
   }
 
 
@@ -47,11 +42,12 @@ export class NavMenuMobile extends Component {
       <Fragment>
         <div className="TopSectionDown">
 
-          <Container fluid={true} className="fixed-top shawdow-sm p-2 mb-0 bg-white">
+
+          <Container fluid={"true"} className="fixed-top shadow-sm p-2 mb-0 bg-white">
             <Row>
               <Col lg={4} md={4} sm={12} xs={12}>
 
-                <Button onClick={this.MenuBarClickHandler} className="btn"><i className="fa fa-bars"></i></Button>
+                <Button onClick={this.MenuBarClickHandler} className="btn"><i className="fa fa-bars"></i>  </Button>
 
                 <Link to="/"> <img className="nav-logo" src={Logo} /> </Link>
 
@@ -59,20 +55,21 @@ export class NavMenuMobile extends Component {
               </Col>
 
             </Row>
+
           </Container>
 
           <div className={this.state.SideNavState}>
             <MegaMenuMobile />
           </div>
 
-
           <div onClick={this.ContentOverlayClickHandler} className={this.state.ContentOverState}>
 
           </div>
 
+
+
+
         </div>
-
-
       </Fragment>
     )
   }

@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react'
 
-export class MegaMenuMobile extends Component {
+class MegaMenuMobile extends Component {
 
     constructor() {
         super();
@@ -10,6 +10,8 @@ export class MegaMenuMobile extends Component {
     componentDidMount() {
         this.MegaMenu();
     }
+
+
 
     MegaMenu() {
         var acc = document.getElementsByClassName("accordionMobile");
@@ -22,69 +24,211 @@ export class MegaMenuMobile extends Component {
                 if (panel.style.maxHeight) {
                     panel.style.maxHeight = null;
                 } else {
-                    panel.style.maxHeight = panel.scrollHeight+ "px"
+                    panel.style.maxHeight = panel.scrollHeight + "px"
                 }
             })
         }
     }
+
+
     render() {
         return (
-            <div className='accordionMenuDivMobile'>
-                <div className='accordionMenuDivInsideMobile'>
+            <div className="accordionMenuDivMobile">
+                <div className="accordionMenuDivInsideMobile">
+
 
                     <button className="accordionMobile">
-                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panelMobile">
                         <ul>
-                            <li><a href="#" className="accordionItemMobile" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItemMobile" > Gown and Wedding 2</a></li>
-                        </ul>
-                    </div>
-
-                    <button className="accordionMobile">
-                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
-                    </button>
-                    <div className="panelMobile">
-                        <ul>
-                            <li><a href="#" className="accordionItemMobile" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItemMobile" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
                         </ul>
                     </div>
 
 
                     <button className="accordionMobile">
-                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panelMobile">
                         <ul>
-                            <li><a href="#" className="accordionItemMobile" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItemMobile" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
                         </ul>
                     </div>
 
 
                     <button className="accordionMobile">
-                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panelMobile">
                         <ul>
-                            <li><a href="#" className="accordionItemMobile" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItemMobile" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
                         </ul>
                     </div>
 
 
                     <button className="accordionMobile">
-                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story Wedding
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
                     </button>
                     <div className="panelMobile">
                         <ul>
-                            <li><a href="#" className="accordionItemMobile" > Gown and Wedding 1</a></li>
-                            <li><a href="#" className="accordionItemMobile" > Gown and Wedding 2</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
                         </ul>
                     </div>
-                    
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
+                    <button className="accordionMobile">
+                        <img className="accordionMenuIconMobile" src="https://image.flaticon.com/icons/png/128/739/739249.png" />&nbsp; White Story
+                    </button>
+                    <div className="panelMobile">
+                        <ul>
+                            <li><a href="#" className="accordionItemMobile" > Gown 1</a></li>
+                            <li><a href="#" className="accordionItemMobile" > Gown 2</a></li>
+                        </ul>
+                    </div>
+
+
+
                 </div>
 
             </div>
