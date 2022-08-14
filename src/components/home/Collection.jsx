@@ -16,7 +16,7 @@ export class Collection extends Component {
                                 <img className='center w-75' src="http://white-story.com/images/stories/virtuemart/category/cat-na-glavnoy2022-victory.jpg" />
                                 <Card.Body>
                                     <p className='product-name-on-card'> Gown and Wedding</p>
-                                    <p className='product-price-on-card'>Price: $300.00</p>
+                                    <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -26,7 +26,7 @@ export class Collection extends Component {
                                 <img className='center w-75' src="https://white-story.com/images/stories/virtuemart/product/Azalea-Alina1.jpg" />
                                 <Card.Body>
                                     <p className='product-name-on-card'> Gown and Wedding</p>
-                                    <p className='product-price-on-card'>Price: $300.00</p>
+                                    <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -35,7 +35,7 @@ export class Collection extends Component {
                                 <img className='center w-75' src="https://white-story.com/images/stories/virtuemart/product/WS-elena.jpg" />
                                 <Card.Body>
                                     <p className='product-name-on-card'> Gown and Wedding</p>
-                                    <p className='product-price-on-card'>Price: $300.00</p>
+                                    <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -44,7 +44,7 @@ export class Collection extends Component {
                                 <img className='center w-75' src="https://white-story.com/images/stories/virtuemart/product/WS-victoria.jpg" />
                                 <Card.Body>
                                     <p className='product-name-on-card'> Gown and Wedding</p>
-                                    <p className='product-price-on-card'>Price: $300.00</p>
+                                    <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                 </Card.Body>
                             </Card>
                         </Col>

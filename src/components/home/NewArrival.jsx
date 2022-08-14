@@ -77,7 +77,7 @@ export class NewArrival extends Component {
                                     <img className='center' src="http://white-story.com/images/slider/1slide-2022Weding.jpeg" />
                                     <Card.Body>
                                         <p className='product-name-on-card'> Gown and Wedding</p>
-                                        <p className='product-price-on-card'>Price: $300.00</p>
+                                        <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -86,7 +86,7 @@ export class NewArrival extends Component {
                                     <img className='center' src="http://white-story.com/images/stories/virtuemart/category/cat-na-glavnoy2022-victory.jpg" />
                                     <Card.Body>
                                         <p className='product-name-on-card'> Gown and Wedding</p>
-                                        <p className='product-price-on-card'>Price: $300.00</p>
+                                        <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -95,7 +95,7 @@ export class NewArrival extends Component {
                                     <img className='center' src="http://white-story.com/images/slider/2slide-2022Weding.jpeg" />
                                     <Card.Body>
                                         <p className='product-name-on-card'> Gown and Wedding</p>
-                                        <p className='product-price-on-card'>Price: $300.00</p>
+                                        <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -104,7 +104,7 @@ export class NewArrival extends Component {
                                     <img className='center' src="http://white-story.com/images/slider/3slide-2022Weding.jpeg" />
                                     <Card.Body>
                                         <p className='product-name-on-card'> Gown and Wedding</p>
-                                        <p className='product-price-on-card'>Price: $300.00</p>
+                                        <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -113,7 +113,7 @@ export class NewArrival extends Component {
                                     <img className='center' src="http://white-story.com/images/slider/Olimpia2022-smaSlider.jpeg" />
                                     <Card.Body>
                                         <p className='product-name-on-card'> Gown and Wedding</p>
-                                        <p className='product-price-on-card'>Price: $300.00</p>
+                                        <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -122,7 +122,7 @@ export class NewArrival extends Component {
                                     <img className='center' src="http://white-story.com/images/slider/Vienna_2021-baner.jpeg" />
                                     <Card.Body>
                                         <p className='product-name-on-card'> Gown and Wedding</p>
-                                        <p className='product-price-on-card'>Price: $300.00</p>
+                                        <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -131,7 +131,7 @@ export class NewArrival extends Component {
                                     <img className='center' src="http://white-story.com/images/slider/ABB_slider-ban.jpeg" />
                                     <Card.Body>
                                         <p className='product-name-on-card'> Gown and Wedding</p>
-                                        <p className='product-price-on-card'>Price: $300.00</p>
+                                        <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                     </Card.Body>
                                 </Card>
                             </div>
@@ -140,7 +140,7 @@ export class NewArrival extends Component {
                                     <img className='center' src="https://www.happywedding.app/blog/wp-content/uploads/2021/10/Matching-Groom-Attire-With-Gown.jpg" />
                                     <Card.Body>
                                         <p className='product-name-on-card'> Gown and Wedding</p>
-                                        <p className='product-price-on-card'>Price: $300.00</p>
+                                        <p className='product-price-on-card'>Price: $999.00 to 2999.00.00</p>
                                     </Card.Body>
                                 </Card>
                             </div>
